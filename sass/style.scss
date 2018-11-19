@@ -1,1 +1,173 @@
+/* Font variables */
+$fontOpen: 'Open Sans', sans-serif;
+$fontRoboto: 'Roboto Condensed', sans-serif;
+$fontChango: 'Chango', cursive;
+$fontRaleway: 'Raleway', sans-serif;
+
+/* Color variables */
+$white: #fff;
+$main: #5f5aa2;
+$lightgrey: #696969;
+
+/* Transition variables */
+$transition: all .4s ease;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;	
+	font-family: $fontRaleway;
+}
+
+h2, h3, h4 {
+	
+}
+
+a {
+	decoration-text: none;
+}
+
+.line {
+	margin: 20px auto;
+	max-width: 400px;
+	height: 2px;
+	background-color: $main;
+}
+
+section, .space {
+	padding: 40px 0;	
+}
+
+.jumbotron {
+	margin: 40px auto;
+	width: 100%;
+	height: 100vh;
+	padding-top: 40px;
+	background: url("https://images.pexels.com/photos/959266/buttercup-black-white-plant-flower-959266.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") ;
+	background-size: cover;
+}
+
+.navbar {
+	border: none;
+	.logo-large, .logo-small {
+
+		padding: 10px;
+		h4 {
+			font-weight: bold; 
+			font-size: 26px;
+			color: $main; 
+			line-height: 50px;
+		}
+		p {
+			margin: 0;
+			font-size: 12px;
+		}
+	}
+}
+
+
+.button {
+	padding-top: 20px;
+	line-height: 30px;
+	color: $lightgrey;
+	&:hover {
+		background-color: $main;
+		transition: $transition;
+		color: $white;
+	}
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.tiles-section {
+		.card {
+			margin: 40px 0;
+			height: 300px;
+			width: 250px;
+			border: 1px solid $main;
+			transition: $transition;
+			.con {
+				display: flex;
+				justify-content: center;
+			}
+			.card-header {
+				height: 80px;
+				border: 1px solid $main;
+				h2 {
+					margin: 20px 10px;
+					line-height: 30px;
+				}
+				h4 {
+
+				}
+				h5 {
+					margin: 10px;
+					line-height: 30px;
+				}
+				p {
+
+				}
+			}
+			.card-body {
+				height: 170px;
+				border: 1px solid $main;
+			}
+			.card-footer {
+				height: 50px;
+				border: 1px solid $main;
+			}
+			&:hover {
+				color: $white;
+				background-color: $main;
+				cursor: pointer;
+				transform: scale(1.2);
+				-webkit-box-shadow: 9px 11px 28px -4px rgba(0,0,0,0.59); 
+				box-shadow: 9px 11px 28px -4px rgba(0,0,0,0.59);
+				.card-header {
+					border-bottom: 1px solid $white;
+				}
+				.card-footer {
+					border-top: 1px solid $white;
+				}
+			}
+		}
+}
+
+footer {
+	height: 100px;
+	background-color: $main;
+}
+
+
+@media (min-width: 768px) {
+	.logo-large {
+		display: block;
+	}
+	.logo-small {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.logo-large {
+		display: none;
+	}
+	.logo-small {
+		display: block;
+	}
+	.tiles-section {
+		.card {
+			height: 360px;
+			.card-header {
+				height: 140px;
+			}
+		}
+	}
+}
  
