@@ -47,6 +47,15 @@ section, .space {
 	padding-top: 40px;
 	background: url("https://images.pexels.com/photos/959266/buttercup-black-white-plant-flower-959266.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") ;
 	background-size: cover;
+	.slogan {
+		max-width: 600px;
+		margin: 20vh auto;
+		color: $white;
+		  background: rgba(0, 0, 0, 0.6);
+		h1 {
+			font-size: 86px;
+		}
+	}
 }
 
 .navbar {
@@ -92,10 +101,6 @@ section, .space {
 			width: 250px;
 			border: 1px solid $main;
 			transition: $transition;
-			.con {
-				display: flex;
-				justify-content: center;
-			}
 			.card-header {
 				height: 80px;
 				border: 1px solid $main;

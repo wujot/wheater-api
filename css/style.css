@@ -34,6 +34,17 @@ section, .space {
   background-size: cover;
 }
 
+.jumbotron .slogan {
+  max-width: 600px;
+  margin: 20vh auto;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron .slogan h1 {
+  font-size: 86px;
+}
+
 .navbar {
   border: none;
 }
@@ -81,13 +92,6 @@ section, .space {
   width: 250px;
   border: 1px solid #5f5aa2;
   transition: all 0.4s ease;
-}
-
-.tiles-section .card .con {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
 }
 
 .tiles-section .card .card-header {
