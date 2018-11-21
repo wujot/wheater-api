@@ -25,5 +25,7 @@ $(document).ready(function(){
 			  mouseleave: function(){
 			    $('#nineIcon').attr('src','https://www.dropbox.com/s/p7ybkm4mvxrkdj9/nine-tile-color.png?raw=1');
 			  }
-			  });	  
+			  });
+
+  
 	});
