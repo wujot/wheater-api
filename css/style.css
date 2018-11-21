@@ -88,7 +88,7 @@ section, .space {
 
 .tiles-section .card {
   margin: 40px 0;
-  height: 300px;
+  height: 360px;
   width: 250px;
   border: 1px solid #5f5aa2;
   transition: all 0.4s ease;
@@ -109,8 +109,12 @@ section, .space {
   line-height: 30px;
 }
 
+.tiles-section .card .card-header p {
+  margin: 20px 0;
+}
+
 .tiles-section .card .card-body {
-  height: 170px;
+  height: 230px;
   border: 1px solid #5f5aa2;
 }
 
@@ -157,10 +161,10 @@ footer {
     display: block;
   }
   .tiles-section .card {
-    height: 360px;
+    height: 400px;
   }
   .tiles-section .card .card-header {
-    height: 140px;
+    height: 120px;
   }
 }
 /*# sourceMappingURL=style.css.map */

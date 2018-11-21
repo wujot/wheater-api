@@ -97,7 +97,7 @@ section, .space {
 .tiles-section {
 		.card {
 			margin: 40px 0;
-			height: 300px;
+			height: 360px;
 			width: 250px;
 			border: 1px solid $main;
 			transition: $transition;
@@ -116,11 +116,11 @@ section, .space {
 					line-height: 30px;
 				}
 				p {
-
+					margin: 20px 0;
 				}
 			}
 			.card-body {
-				height: 170px;
+				height: 230px;
 				border: 1px solid $main;
 			}
 			.card-footer {
@@ -168,9 +168,9 @@ footer {
 	}
 	.tiles-section {
 		.card {
-			height: 360px;
+			height: 400px;
 			.card-header {
-				height: 140px;
+				height: 120px;
 			}
 		}
 	}
